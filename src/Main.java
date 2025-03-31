@@ -18,43 +18,44 @@ public class Main {
                 System.out.println(weight1[index]);
                 break;
             }
-            System.out.print(weight1[index] + " ");
+            System.out.print(weight1[index] + ", ");
         }
         for (int index = 0; index < weight2.length; index++) {
             if (index == weight2.length - 1) {
                 System.out.println(weight2[index]);
                 break;
             }
-            System.out.print(weight2[index] + " ");
+            System.out.print(weight2[index] + ", ");
         }
         for (int index = 0; index < weight3.length; index++) {
             if (index == weight3.length - 1) {
                 System.out.println(weight3[index]);
                 break;
             }
-            System.out.print(weight3[index] + " ");
+            System.out.print(weight3[index] + ", ");
         }
         for (int index =  weight1.length - 1; index >= 0; index--) {
             if (index == 0) {
                 System.out.println(weight1[index]);
                 break;
             }
-            System.out.print(weight1[index] + " ");
+            System.out.print(weight1[index] + ", ");
         }
         for (int index =  weight2.length - 1; index >= 0; index--) {
             if (index == 0) {
                 System.out.println(weight2[index]);
                 break;
             }
-            System.out.print(weight2[index] + " ");
+            System.out.print(weight2[index] + ", ");
         }
         for (int index =  weight3.length - 1; index >= 0; index--) {
             if (index == 0) {
                 System.out.println(weight3[index]);
                 break;
             }
-            System.out.print(weight3[index] + " ");
+            System.out.print(weight3[index] + ", ");
         }
+
         for (int index = 0; index < weight1.length; index++) {
             if (weight1[index] % 2 != 0) {
                 weight1[index] += 1;
@@ -63,7 +64,7 @@ public class Main {
                     System.out.println(weight1[index]);
                     break;
             }
-            System.out.print(weight1[index] + " ");
+            System.out.print(weight1[index] + ", ");
         }
     }
 }
