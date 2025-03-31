@@ -55,6 +55,7 @@ public class Main {
             }
             System.out.print(weight3[index] + " ");
         }
+
         for (int index = 0; index < weight1.length; index++) {
             if (weight1[index] % 2 != 0) {
                 weight1[index] += 1;
